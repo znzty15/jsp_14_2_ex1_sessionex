@@ -43,7 +43,7 @@
 		
 		out.println("==========지금부터 세션을 삭제하겠습니다=======<br>");
 		//세션 전부 삭제
-		//session.invalidate();
+		session.invalidate();
 		//지정된 값만 삭제
 		//session.removeAttribute("id");
 		
