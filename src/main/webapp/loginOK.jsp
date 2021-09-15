@@ -14,7 +14,7 @@
 		id = request.getParameter("id");
 		pw = request.getParameter("pw");
 		//아이디와 비밀번호가 맞으면 실행
-		if(id.equals("abcde") && pw.equals("12345")){
+		if(id.equals("asdf") && pw.equals("12345")){
 			//세션에 id값을 저장
 			session.setAttribute("id", id);
 		}
